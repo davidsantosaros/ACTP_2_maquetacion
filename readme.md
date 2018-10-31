@@ -1,36 +1,32 @@
-- Requisitos Generales:
-    - Una  página web "BarberShop" contiene:
-        una barra de navegacion y un footer.
-        Secciones: - La primera:Navbar
-                   - la segunda :Header
-                   - la tercera: Entrada Blog
-                   - la cuarta: iconos entrada Blog
-                   - la Quinta: perfil Autor
-                   - la sexta :barra con flechas que permitan ir a las entradas anteriores y siguientes
-                   - la septima: Footer
+/ Requisitos Generales:
+    / Una  página web "BarberShop" contiene: 6 secciones
+                        / La primera:Navbar
+                        / la segunda :Header
+                        / la tercera: Entrada Blog
+                        / la cuarta: iconos entrada Blog
+                        / la Quinta: perfil Autor
+                        / la sexta :barra con flechas que permitan ir a las entradas anteriores y siguientes
+                        / la septima: Footer
         
-- Requisitos Especificos:
-      - Iconos: usar repositorio de Font-Awesome
-      -Parrafos en general:
-         entregagos en el mockoup
-      - Secciones con grilla :usar boostrap
+/ Requisitos Especificos:
+            / Iconos: usar repositorio de Font-Awesome
+            / Parrafos en general: entregagos en el mockoup
+            / Secciones con grilla :usar boostrap
 
 
-- Requisitos Visuales:
-      - Layaout: 
-         Para crear el layout usas boostrap
-      - Fuentes:(buscar en google fonts)
-         Titulos: Playfair 
-         Parrafos y otros:Roboto
-      - Colores:   
-         entregados por el cliente
-         Botones y background de iconos:
-         barra de navegacion #FFFFFF
-         Footer:#FFFFFF
-      - Imagenes:
-         las imagenes se encuentras dentro de la carpeta entregada por el cliente
-      - Iconos:
-         para buscar iconos similares al mockup usar Font-Awesome
+/ Requisitos Visuales:
+      / Layaout: 
+                  / Para crear el layout usas boostrap
+      / Fuentes:(buscar en google fonts)
+                  / Titulos: Playfair 
+                  / Parrafos y otros:Roboto
+      / Colores:   
+                  / entregados por el cliente
+                  / Botones y background de iconos:
+                  / barra de navegacion #FFFFFF
+                  / Footer:#FFFFFF
+      / Imagenes:las imagenes se encuentras dentro de la carpeta entregada por el cliente
+      / Iconos: para buscar iconos similares al mockup usar Font-Awesome
 
 
 
