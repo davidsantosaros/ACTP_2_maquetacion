@@ -1,0 +1,217 @@
+/* Global Styles */
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: Black Italic bold;
+  font-weight: 700;
+}
+
+p,
+li,
+a,
+small {
+  font-family: 'Roboto', sans-serif;
+  font-style: #707070
+}
+
+p {
+  color: #707070;
+}
+
+/* Navbar */
+
+.navbar_barbershop {
+  background-color: #121619;
+  color: hsla(0, 100%, 100%, 0.52);
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+.navbar-brand img {
+  max-width: 120px;
+  padding-left: 30px;
+}
+
+.navbar-nav>li>a {
+  color: #ffffff;
+  text-shadow: none;
+
+}
+
+.nav>li>a:hover {
+  background-color: #323333;
+  color: #ffffff;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+/* Header */
+.header_barbershop {
+  background-image: url("../img/post-image.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 90vh;
+  padding-top: 120px;
+  margin-top: 51px;
+}
+
+.header_barbershop h1 {
+  color: #ffffff;
+  font-size: 5em;
+  padding-top: 200px;
+  padding-left: 350px;
+  padding-right: 350px;
+
+}
+
+.header_barbershop p {
+  color: #ffffff;
+  line-height: 22px;
+  padding: 1rem 30vw;
+
+}
+
+@media only screen and (max-width : 767px) {
+
+  .header_barbershop {
+    height: 80vh;
+    padding-top: 60px;
+    margin-top: 50px;
+    background-position: bottom center;
+
+  }
+
+  .header_barbershop h1 {
+    font-size: 3em;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 90px;
+  }
+
+  .header_barbershop p {
+    padding-top: 160px;
+  }
+
+  .fa-7x {
+    font-size: 40px;
+  }
+}
+
+/* Blog */
+.blog {
+  text-align: left;
+  ;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 30px;
+}
+
+
+.icon_blog {
+  padding-left: 220px;
+  padding-top: 10px;
+}
+
+.icon_blog_inner {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width : 767px) {
+
+  .blog h3 {
+    text-align: left;
+  }
+
+  .blog {
+    text-align: justify;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 30px;
+  }
+
+  .icon_blog {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+   
+  }
+
+  .icon_blog_inner {
+    margin-left: 10px;
+  }
+
+  .calendar {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px
+  }
+}
+/* Autor */
+.autor{
+  border-top: solid 1px  #E6E7E7;
+  padding-top: 40px;
+  padding-left: 340px;
+  padding-right: 340px;
+  padding-bottom: 40px;
+}
+
+.autor img{
+border-radius: 50%;
+max-width: 130px;
+}
+
+@media only screen and (max-width : 767px) {
+.texto{
+  display: none;
+}
+.autor img{
+  align-content: center;
+  }
+  .autor{
+  padding-left: 120px;
+  padding-right: 140px;
+
+  }
+  }
+
+/* Nav Footer */
+.nav_footer {
+  background-color: #E6E7E7;
+  height: 70px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #121619;
+  text-align: center;
+  height: 80px;
+}
+.footer img {
+  max-width: 80px;
+padding-top: 30px;
+}
+
+@media only screen and (max-width : 767px) {
+  .footer {
+    background-color: #121619;
+    text-align: center;
+    height: 150px;
+  }
+
+
+  .footer img {
+    max-width: 80px;
+  padding-top: 60px;
+}
+.texto2{
+  display: none;
+}
+}
+

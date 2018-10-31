@@ -1,42 +1,76 @@
-# Maquetación - Front End B-learning
+- Requisitos Generales:
+    - Una  página web "BarberShop" contiene:
+        una barra de navegacion y un footer.
+        Secciones: - La primera:Navbar
+                   - la segunda :Header
+                   - la tercera: Entrada Blog
+                   - la cuarta: iconos entrada Blog
+                   - la Quinta: perfil Autor
+                   - la sexta :barra con flechas que permitan ir a las entradas anteriores y siguientes
+                   - la septima: Footer
+        
+- Requisitos Especificos:
+      - Iconos: usar repositorio de Font-Awesome
+      -Parrafos en general:
+         entregagos en el mockoup
+      - Secciones con grilla :usar boostrap
 
-## Maquetando una entrada de blog
 
-### Instrucciones: 
+- Requisitos Visuales:
+      - Layaout: 
+         Para crear el layout usas boostrap
+      - Fuentes:(buscar en google fonts)
+         Titulos: Playfair 
+         Parrafos y otros:Roboto
+      - Colores:   
+         entregados por el cliente
+         Botones y background de iconos:
+         barra de navegacion #FFFFFF
+         Footer:#FFFFFF
+      - Imagenes:
+         las imagenes se encuentras dentro de la carpeta entregada por el cliente
+      - Iconos:
+         para buscar iconos similares al mockup usar Font-Awesome
 
-Recrea el siguiente [mockup](img/barbershop-desktop.png) de una entrada de blog utilizando todos los conceptos, herramientas y metodologías aprendidas en los cursos previos.
 
-![Mockup blog barbería](img/barbershop-mobile.png)
-![Mockup blog barbería](img/barbershop-desktop.png)
 
-### Requsitos generales:
+- sketch de la versión escritorio 
 
-- Primero revisa la [guía de estilo](img/guia-de-estilos-barbershop.png).
-	-	En ella encontrarás los colores, fuentes, iconos e imágenes usados en el mockup.
-	-	Los archivos se encuentran en el siguiente [link](assets).
--  Luego, define qué dependencias utilizarás para crear la página web.
--	La página deberá contener:
-	- Una barra de navegación
-	- Un header
-	- Una entrada
-	- El perfil del autor del artículo
-	- Una barra con flechas que permitan ir a las entradas anteriores y siguientes
-	- Un footer
+ ![aquí](version_desktop.jpg)
 
-Recuerda que la página web deberá ser responsiva. Toma como referencia el siguiente [mockup](img/barbershop-mobile.png) con la versión móvil.
 
-### Criterios de evaluación:
+- Estilos Metodología BEM
 
-- Uso de dependencias específicas para la página web
-- Utilización de BEM en clases CSS
-- Buenas prácticas y uso de identado correcto
-- Uso de media queries
-- Uso de GIT para versionar el desafío
-- Uso de Github Pages
-- Creación del repositorio con el desafío
-- Creación de README.md con link de página web subida a Github Pages
-- Entrega del desafío a través de la plataforma desafío
+![aquí](Hoja_estilos.jpg)
 
-Luego debes enviar los cambios (vía push) y subir el link del repositorio a la sección correspondiente en la plataforma [empieza](https://empieza.desafiolatam.com "Desafío Latam").
 
-Mucha suerte!
+- ESTRUCTURA DE DIRECTORIO DEL PROYECTO
+
+      /carpeta_proyecto 
+            /assets
+                  /css
+                  /js
+                  /img 
+                  /fonts
+            index.html
+
+- DEPENDENCIAS AL PROYECTO
+
+      <!-- Google Fonts | Playfair & Roboto fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
+      <!-- Main Styles -->
+      <link rel="stylesheet" href="assets/css/style.css">
+
+
+      <!-- jquery -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- Font Awesome 5 -->
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+      <!-- Main scripts -->
+      <script src="assets/js/script.js"></script>
+            
+
+
+Link GitPages :
