@@ -1,5 +1,5 @@
 #  Requisitos Generales:
-- Una  página web "BarberShop" contiene: 6 secciones
+      - Una  página web "BarberShop" contiene: 6 secciones
             -     La primera:Navbar
             -     la segunda :Header
             -     la tercera: Entrada Blog
